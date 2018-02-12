@@ -13,9 +13,34 @@ import SnapKit
 
 class RGLoginViewController: UIViewController {
 
+    let disposebag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        setupFunction()
+      
+    }
+    
+    private func setupFunction(){
+        
+        let viewModel = LoginViewModel(input: (username: usernameTextField.rx.text .orEmpty.asDriver(), password: passwordTextField.rx.text .orEmpty.asDriver(), loginTap:loginButton.rx.tap.asDriver()), service: ValidationService.instance)
+        
+        viewModel.usernameUsable.drive(usernameLabel.rx.validationResult).disposed(by: disposebag)
+        viewModel.usernameUsable.drive(passwordTextField.rx.inputEnable).disposed(by: disposebag)
+        
+        viewModel.passwordUsable.drive(passwordLabel.rx.validationResult).disposed(by: disposebag)
+        viewModel.loginButtonEnable.drive(loginButton.rx.btnValidState).disposed(by: disposebag)
+        
+        viewModel.loginResult.drive(onNext: {[weak self] (result) in
+            switch result{
+            case .ok(let message):
+                self?.showAlert(message: message)
+            case .failed(let message):
+                self?.showAlert(message: message)
+            default:
+                self?.showAlert(message: "登录出错")
+            }
+        }).disposed(by: disposebag)
         
     }
     
@@ -81,9 +106,13 @@ class RGLoginViewController: UIViewController {
             make.width.equalTo(150)
             make.height.equalTo(50)
         }
-        
-        
-        
+    }
+    
+    func showAlert(message: String) {
+        let action = UIAlertAction(title: "确定", style: .default, handler: nil)
+        let alertViewController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        alertViewController.addAction(action)
+        present(alertViewController, animated: true, completion: nil)
     }
     
     

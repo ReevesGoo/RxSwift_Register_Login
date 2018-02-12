@@ -15,27 +15,8 @@
 		906598552025671E0079344A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906598542025671E0079344A /* Assets.xcassets */; };
 		906598582025671E0079344A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906598562025671E0079344A /* LaunchScreen.storyboard */; };
 		90955A6F202578350080A021 /* RGLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A6E202578350080A021 /* RGLoginViewController.swift */; };
-		90955A97202579810080A021 /* UIImage+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A74202579810080A021 /* UIImage+expanded.m */; };
-		90955A98202579810080A021 /* UIView+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A77202579810080A021 /* UIView+expanded.m */; };
-		90955A99202579810080A021 /* HYBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A7A202579810080A021 /* HYBTextView.m */; };
-		90955A9A202579810080A021 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A7B202579810080A021 /* UIView+Extension.m */; };
-		90955A9B202579810080A021 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A7D202579810080A021 /* UIColor+expanded.m */; };
-		90955A9C202579810080A021 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A7E202579810080A021 /* UILabel+Extension.swift */; };
-		90955A9D202579810080A021 /* UINav+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A80202579810080A021 /* UINav+Orientation.m */; };
-		90955A9E202579810080A021 /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A81202579810080A021 /* UIColor+Common.m */; };
-		90955A9F202579810080A021 /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A82202579810080A021 /* UIColor+FlatColors.m */; };
-		90955AA0202579810080A021 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A84202579810080A021 /* UIImageView+SDWebImage.m */; };
-		90955AA1202579810080A021 /* NSString+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A89202579810080A021 /* NSString+expanded.m */; };
-		90955AA2202579810080A021 /* NSDictionary+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A8D202579810080A021 /* NSDictionary+expanded.m */; };
-		90955AA3202579810080A021 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A8E202579810080A021 /* UIImage+Common.m */; };
-		90955AA4202579810080A021 /* UITextField+placeholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90955A8F202579810080A021 /* UITextField+placeholderColor.m */; };
-		90955AA5202579810080A021 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A90202579810080A021 /* UIButton+Extension.swift */; };
-		90955AA6202579810080A021 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A91202579810080A021 /* UIImage+Extension.swift */; };
-		90955AA7202579810080A021 /* UIView+FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A92202579810080A021 /* UIView+FrameExtension.swift */; };
-		90955AA8202579810080A021 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A93202579810080A021 /* UIBarButtonItem+Extension.swift */; };
-		90955AA9202579810080A021 /* UIView+IBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A94202579810080A021 /* UIView+IBExtension.swift */; };
-		90955AAA202579810080A021 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A95202579810080A021 /* UITextField+Extension.swift */; };
-		90955AAB202579810080A021 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90955A96202579810080A021 /* NSDate+Extension.swift */; };
+		90BBD03120307EBD0003832D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BBD03020307EBC0003832D /* LoginViewModel.swift */; };
+		90BBD03320318E800003832D /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BBD03220318E7F0003832D /* UILabel+Extension.swift */; };
 		F0FF14438A75795E619E2B51 /* Pods_RxSwift_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A281C5BE6A7D066E9DE608B6 /* Pods_RxSwift_Login.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,40 +32,8 @@
 		906598572025671E0079344A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		906598592025671E0079344A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90955A6E202578350080A021 /* RGLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGLoginViewController.swift; sourceTree = "<group>"; };
-		90955A74202579810080A021 /* UIImage+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+expanded.m"; sourceTree = "<group>"; };
-		90955A75202579810080A021 /* HYBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBTextView.h; sourceTree = "<group>"; };
-		90955A76202579810080A021 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		90955A77202579810080A021 /* UIView+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+expanded.m"; sourceTree = "<group>"; };
-		90955A78202579810080A021 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
-		90955A79202579810080A021 /* UIImage+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+expanded.h"; sourceTree = "<group>"; };
-		90955A7A202579810080A021 /* HYBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBTextView.m; sourceTree = "<group>"; };
-		90955A7B202579810080A021 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		90955A7C202579810080A021 /* UIView+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+expanded.h"; sourceTree = "<group>"; };
-		90955A7D202579810080A021 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
-		90955A7E202579810080A021 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
-		90955A80202579810080A021 /* UINav+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINav+Orientation.m"; sourceTree = "<group>"; };
-		90955A81202579810080A021 /* UIColor+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
-		90955A82202579810080A021 /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
-		90955A83202579810080A021 /* NSString+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+expanded.h"; sourceTree = "<group>"; };
-		90955A84202579810080A021 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
-		90955A85202579810080A021 /* UITextField+placeholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+placeholderColor.h"; sourceTree = "<group>"; };
-		90955A86202579810080A021 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
-		90955A87202579810080A021 /* NSDictionary+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+expanded.h"; sourceTree = "<group>"; };
-		90955A88202579810080A021 /* UINav+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINav+Orientation.h"; sourceTree = "<group>"; };
-		90955A89202579810080A021 /* NSString+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+expanded.m"; sourceTree = "<group>"; };
-		90955A8A202579810080A021 /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
-		90955A8B202579810080A021 /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
-		90955A8C202579810080A021 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
-		90955A8D202579810080A021 /* NSDictionary+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+expanded.m"; sourceTree = "<group>"; };
-		90955A8E202579810080A021 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
-		90955A8F202579810080A021 /* UITextField+placeholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+placeholderColor.m"; sourceTree = "<group>"; };
-		90955A90202579810080A021 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
-		90955A91202579810080A021 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		90955A92202579810080A021 /* UIView+FrameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FrameExtension.swift"; sourceTree = "<group>"; };
-		90955A93202579810080A021 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
-		90955A94202579810080A021 /* UIView+IBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBExtension.swift"; sourceTree = "<group>"; };
-		90955A95202579810080A021 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
-		90955A96202579810080A021 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		90BBD03020307EBC0003832D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		90BBD03220318E7F0003832D /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "RxSwift_Login/UILabel+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		A281C5BE6A7D066E9DE608B6 /* Pods_RxSwift_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B6706369DCAE0BFB99CADA /* Pods-RxSwift_Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift_Login/Pods-RxSwift_Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +65,7 @@
 				900965772025AA7300C6F752 /* ValidationService.swift */,
 				900965792025DEFE00C6F752 /* Protocol.swift */,
 				900965812025F9E200C6F752 /* RegisterViewModel.swift */,
+				90BBD03220318E7F0003832D /* UILabel+Extension.swift */,
 			);
 			path = "注册";
 			sourceTree = "<group>";
@@ -124,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				90955A6E202578350080A021 /* RGLoginViewController.swift */,
+				90BBD03020307EBC0003832D /* LoginViewModel.swift */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -152,69 +103,11 @@
 				9065984D2025671E0079344A /* AppDelegate.swift */,
 				9009657F2025F95900C6F752 /* 注册 */,
 				900965802025F95900C6F752 /* 登录 */,
-				90955A72202579810080A021 /* Extension */,
 				906598542025671E0079344A /* Assets.xcassets */,
 				906598562025671E0079344A /* LaunchScreen.storyboard */,
 				906598592025671E0079344A /* Info.plist */,
 			);
 			path = RxSwift_Login;
-			sourceTree = "<group>";
-		};
-		90955A72202579810080A021 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				90955A73202579810080A021 /* Extension */,
-				90955A7E202579810080A021 /* UILabel+Extension.swift */,
-				90955A7F202579810080A021 /* Category */,
-				90955A90202579810080A021 /* UIButton+Extension.swift */,
-				90955A91202579810080A021 /* UIImage+Extension.swift */,
-				90955A92202579810080A021 /* UIView+FrameExtension.swift */,
-				90955A93202579810080A021 /* UIBarButtonItem+Extension.swift */,
-				90955A94202579810080A021 /* UIView+IBExtension.swift */,
-				90955A95202579810080A021 /* UITextField+Extension.swift */,
-				90955A96202579810080A021 /* NSDate+Extension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		90955A73202579810080A021 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				90955A74202579810080A021 /* UIImage+expanded.m */,
-				90955A75202579810080A021 /* HYBTextView.h */,
-				90955A76202579810080A021 /* UIView+Extension.h */,
-				90955A77202579810080A021 /* UIView+expanded.m */,
-				90955A78202579810080A021 /* UIColor+expanded.h */,
-				90955A79202579810080A021 /* UIImage+expanded.h */,
-				90955A7A202579810080A021 /* HYBTextView.m */,
-				90955A7B202579810080A021 /* UIView+Extension.m */,
-				90955A7C202579810080A021 /* UIView+expanded.h */,
-				90955A7D202579810080A021 /* UIColor+expanded.m */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		90955A7F202579810080A021 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				90955A80202579810080A021 /* UINav+Orientation.m */,
-				90955A81202579810080A021 /* UIColor+Common.m */,
-				90955A82202579810080A021 /* UIColor+FlatColors.m */,
-				90955A83202579810080A021 /* NSString+expanded.h */,
-				90955A85202579810080A021 /* UITextField+placeholderColor.h */,
-				90955A86202579810080A021 /* UIImage+Common.h */,
-				90955A87202579810080A021 /* NSDictionary+expanded.h */,
-				90955A88202579810080A021 /* UINav+Orientation.h */,
-				90955A89202579810080A021 /* NSString+expanded.m */,
-				90955A8A202579810080A021 /* UIColor+FlatColors.h */,
-				90955A8B202579810080A021 /* UIColor+Common.h */,
-				90955A84202579810080A021 /* UIImageView+SDWebImage.m */,
-				90955A8C202579810080A021 /* UIImageView+SDWebImage.h */,
-				90955A8D202579810080A021 /* NSDictionary+expanded.m */,
-				90955A8E202579810080A021 /* UIImage+Common.m */,
-				90955A8F202579810080A021 /* UITextField+placeholderColor.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		C4126293BDEB19E142F97298 /* Pods */ = {
@@ -360,33 +253,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BBD03320318E800003832D /* UILabel+Extension.swift in Sources */,
 				9009657E2025F75900C6F752 /* RGRegisterViewController.swift in Sources */,
-				90955A9C202579810080A021 /* UILabel+Extension.swift in Sources */,
-				90955AA3202579810080A021 /* UIImage+Common.m in Sources */,
-				90955A9A202579810080A021 /* UIView+Extension.m in Sources */,
-				90955AA6202579810080A021 /* UIImage+Extension.swift in Sources */,
-				90955AAB202579810080A021 /* NSDate+Extension.swift in Sources */,
-				90955AA5202579810080A021 /* UIButton+Extension.swift in Sources */,
-				90955AA0202579810080A021 /* UIImageView+SDWebImage.m in Sources */,
-				90955AA2202579810080A021 /* NSDictionary+expanded.m in Sources */,
-				90955AA9202579810080A021 /* UIView+IBExtension.swift in Sources */,
 				9065984E2025671E0079344A /* AppDelegate.swift in Sources */,
-				90955A98202579810080A021 /* UIView+expanded.m in Sources */,
-				90955A9E202579810080A021 /* UIColor+Common.m in Sources */,
-				90955AA7202579810080A021 /* UIView+FrameExtension.swift in Sources */,
-				90955A9B202579810080A021 /* UIColor+expanded.m in Sources */,
 				9009657A2025DEFE00C6F752 /* Protocol.swift in Sources */,
 				900965822025F9E200C6F752 /* RegisterViewModel.swift in Sources */,
 				900965782025AA7300C6F752 /* ValidationService.swift in Sources */,
-				90955AA8202579810080A021 /* UIBarButtonItem+Extension.swift in Sources */,
 				90955A6F202578350080A021 /* RGLoginViewController.swift in Sources */,
-				90955A9F202579810080A021 /* UIColor+FlatColors.m in Sources */,
-				90955A9D202579810080A021 /* UINav+Orientation.m in Sources */,
-				90955AAA202579810080A021 /* UITextField+Extension.swift in Sources */,
-				90955AA1202579810080A021 /* NSString+expanded.m in Sources */,
-				90955AA4202579810080A021 /* UITextField+placeholderColor.m in Sources */,
-				90955A99202579810080A021 /* HYBTextView.m in Sources */,
-				90955A97202579810080A021 /* UIImage+expanded.m in Sources */,
+				90BBD03120307EBD0003832D /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -49,10 +49,7 @@ class RGRegisterViewController: UIViewController {
                 self?.showAlert(message: message)
             default:
                 self?.showAlert(message: "注册出错")
-
             }
-            
-            
             
         }).disposed(by: disposebag)
         

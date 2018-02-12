@@ -71,11 +71,8 @@ extension Reactive where Base:UILabel{
             
             label.textColor = result.textColor
             label.text = result.desc
-            
         })
-        
     }
-    
 }
 
 extension Reactive where Base:UITextField{

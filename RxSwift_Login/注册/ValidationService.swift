@@ -14,6 +14,7 @@ class ValidationService {
     static let instance = ValidationService()
     let minCharactersCount = 6
     
+    //检测注册用户名有效性
     func validateUsername(username:String) -> Observable<Result> {
         
         if username.count == 0 {
@@ -32,8 +33,20 @@ class ValidationService {
         
     }
     
+    //检测登录用户名有效性
+    func loginUsernameValid(username: String) -> Observable<Result> {
+        if username.characters.count == 0 {
+            return .just(.empty)
+        }
+        if usernameValid(username: username) {
+            return .just(.ok(message: "用户名有效"))
+        }
+        return .just(.failed(message: "用户名不存在"))
+    }
     
-    //验证用户名 判断是否存在
+  
+    
+    //验证用户名 注册时判断是否存在 登录时判断是否有效
     func usernameValid(username:String) -> Bool {
         
 //        let url = Bundle.main.path(forResource: "username", ofType: "plist")
@@ -48,6 +61,7 @@ class ValidationService {
 
     }
     
+    //注册密码验证
     func validatePassword(password:String) -> Result {
         
         if password.count == 0 {
@@ -62,6 +76,9 @@ class ValidationService {
     
     }
     
+
+    
+    //注册 二次输入密码验证
     func validateRepeatPassword(password:String,repeatPassword:String) -> Result {
         
         if repeatPassword.count == 0 {
@@ -73,6 +90,21 @@ class ValidationService {
         }
         
         return .failed(message: "两次密码不一样")
+        
+    }
+    
+    //登录密码验证
+    func validateLoginPassword(password:String) -> Result {
+        
+        if password.count == 0 {
+            return .empty
+        }
+        
+        if  password.count < minCharactersCount {
+            return  .failed(message: "密码至少6个字符")
+        }
+        
+        return .ok(message: "")
         
     }
     
@@ -90,15 +122,22 @@ class ValidationService {
             
         }else{
             return Observable.just(Result.failed(message: "注册失败"))
-            
         }
-       
+    }
+    
+    //登录功能
+    func login(username:String,password:String) -> Observable<Result>{
         
-        
-        
-        
-        
-        
+        if var userDict = userdefault.dictionary(forKey: "userDict"){
+            let pass = userDict[username] as! String
+            if pass == password {
+                return Observable.just(Result.ok(message: "登录成功"))
+            }else{
+                return Observable.just(Result.failed(message: "密码错误"))
+            }
+        }else{
+            return Observable.just(Result.failed(message: "网络错误"))
+        }
     }
     
     
